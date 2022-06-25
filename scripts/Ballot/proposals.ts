@@ -16,11 +16,11 @@ async function main() {
 
   const provider = ethers.providers.getDefaultProvider("rinkeby");
   const signer = wallet.connect(provider);
-  console.log(`Using address ${signer.address}`);
+  console.log(`Signer address is : ${signer.address}`);
 
   const ballotAddress = process.argv[2];
   const proposalIndex = process.argv[3];
-  console.log(`Using address ${ballotAddress}`);
+  console.log(`Contract address is : ${ballotAddress}`);
 
   const ballotContract: Ballot = new Contract(
     ballotAddress,
