@@ -14,12 +14,12 @@ Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
 
 The contract is deployed on [rinkeby tesnet.](https://rinkeby.etherscan.io/address/0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd)
 
-The parameters are the proposals.
-
 
 ## Script usage
 
 `yarn ts-node ./scripts/Ballot/deployment.ts <contract address> <string proposal1> <string proposal2>`
+
+The parameters are the proposals.
 
 ### Example
 
