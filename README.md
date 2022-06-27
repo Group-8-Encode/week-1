@@ -54,3 +54,25 @@ Awaiting confirmations
 Transaction completed.
 ✨  Done in 29.41s.
 
+
+# Cast a vote to a ballot
+
+Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
+
+First parameter is the contract address.
+
+Second parameter is the index of the proposal we want to vote for.
+
+The voter address is given inside the .env file.
+
+## Script usage
+
+`yarn ts-node ./scripts/Ballot/cast.ts <contract address> <int proposal>`
+
+### Example
+
+`yarn ts-node ./scripts/Ballot/delegate.ts 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd 3`
+
+#### Output
+
+TBD
