@@ -1,3 +1,12 @@
+### Group 7 
+
+# Members 
+- Aimen Sahnoun
+- Marshal Nganunu
+- Celal Aksu
+- Gabriel Horvart
+- Ryan Chipwanya
+
 # Query proposals
 
 Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
