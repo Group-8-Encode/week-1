@@ -6,6 +6,7 @@
 - Celal Aksu
 - Gabriel Horvart
 - Ryan Chipwanya
+- Iñaki#2559 (Discord Username)
 
 # Query proposals
 
