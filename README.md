@@ -23,7 +23,7 @@ The parameters are the proposals.
 
 ### Example
 
-yarn ts-node ./scripts/Ballot/deployment.ts  "Pizza" "Cake" "Hamburger" "Lasagna" "Popcorn"
+`yarn ts-node ./scripts/Ballot/deployment.ts  "Pizza" "Cake" "Hamburger" "Lasagna" "Popcorn"`
 
 #### Output
 
@@ -67,7 +67,7 @@ Second parameter is index number for proposal.
 
 ### Example
 
-yarn ts-node ./scripts/Ballot/proposals.ts 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd 3
+`yarn ts-node ./scripts/Ballot/proposals.ts 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd 3`
 
 #### Output
 
