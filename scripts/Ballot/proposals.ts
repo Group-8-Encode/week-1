@@ -19,7 +19,6 @@ async function main() {
   console.log(`Signer address is : ${signer.address}`);
 
   const ballotAddress = process.argv[2];
-  const proposalIndex = process.argv[3];
   console.log(`Contract address is : ${ballotAddress}`);
 
   const ballotContract: Ballot = new Contract(
@@ -27,12 +26,19 @@ async function main() {
     ballotJson.abi,
     signer
   ) as Ballot;
-  const tx = await ballotContract.proposals(proposalIndex);
 
-  console.log(
-    `Proposal name : ${ethers.utils.parseBytes32String(tx.name.toString())}`
-  );
-  console.log(`Proposals vote count : ${tx.voteCount}`);
+  let stillExists = true;
+  let i=0;
+  console.log('Proposal names :');
+  while(stillExists){
+    try{
+      const proposal = await ballotContract.proposals(i);
+      console.log(ethers.utils.parseBytes32String(proposal.name));
+      i++;
+    }catch(err){
+      stillExists=false;
+    }
+  }
 }
 
 main().catch((error) => {

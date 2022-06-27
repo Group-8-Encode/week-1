@@ -86,29 +86,36 @@ Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
 
 First parameter is contract address.
 
-Second parameter is index number for proposal.
-
 ## Script usage
 
-`yarn ts-node ./scripts/Ballot/proposals.ts <contract address> <index number>`
+`yarn ts-node ./scripts/Ballot/proposals.ts <contract address>`
 
 ### Example
 
-`yarn ts-node ./scripts/Ballot/proposals.ts 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd 3`
+`yarn ts-node ./scripts/Ballot/proposals.ts 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
 
 #### Output
 
-Using address 0x63FaC9201494f0bd17B9892B9fae4d52fe3BD377
+Using address 0x89ebFFe6Cc220FCdd1291D3E95A80cee3C305360
 
-Signer address is : 0x63FaC9201494f0bd17B9892B9fae4d52fe3BD377
+Signer address is : 0x89ebFFe6Cc220FCdd1291D3E95A80cee3C305360
 
 Contract address is : 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
 
-Proposal name : Lasagna
+Proposal names :
 
-Proposals vote count : 0
+Pizza
 
-Done in 4.99s.
+Cake
+
+Hamburger
+
+Lasagna
+
+Popcorn
+
+Done in 24.20s.
+
 
 # Delegate
 
