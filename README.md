@@ -53,6 +53,33 @@ Contract deployed at 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
 
 Done in 33.36s.
 
+# Give Voting Rights 
+
+Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
+
+First parameter is contract address.
+
+Second parameter is address of person you want to give voting rights to.
+
+## Script usage 
+
+`yarn ts-node ./scripts/Ballot/giveVotingRights.ts <contract address> <voter address>`
+
+### Example
+
+`yarn ts-node ./scripts/Ballot/giveVotingRights.ts 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd 0x8eca91493B343d9146EFf19994C4B9b09B24A120`
+
+#### Output
+
+Using address 0x03671423327Cfab41C21060Ed4Bf7f1a4179BcD5
+Wallet balance 0.09286423893769866
+
+Attaching ballot contract interface to address 0x9BA5FE86A5d0CC8de85DaEa819657208FA4ec28A
+Giving right to vote to 0x8eca91493B343d9146EFf19994C4B9b09B24A120
+
+Awaiting confirmations
+Transaction completed. Hash: 0x2b9525483826794a3614de975085ba1145ef71530773794cfb607e859186dff9
+
 # Query proposals
 
 Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
