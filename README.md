@@ -75,4 +75,32 @@ The voter address is given inside the .env file.
 
 #### Output
 
-TBD
+Using address 0xc046cB6389571B43D09008828D6bC25e9997904E
+Wallet balance 0.0885635145006305
+Attaching ballot contract interface to address 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
+0xc046cB6389571B43D09008828D6bC25e9997904E votes for proposal number 3
+Awaiting confirmations
+Transaction completed. Hash: 0xb20a92810e07ca74bf2a7d390252c3a012ea0baacf23b24bc90f1d0021b1cafa
+Done in 104.51s.
+
+# Voting Results
+
+Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
+
+First parameter is the contract address.
+
+## Script usage
+
+`yarn ts-node ./scripts/Ballot/votingResults.ts <contract address> <int proposal>`
+
+### Example
+
+`yarn ts-node ./scripts/Ballot/votingResults.ts 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
+
+#### Output
+
+Using address 0x89ebFFe6Cc220FCdd1291D3E95A80cee3C305360
+Wallet balance 0.09988626399878682
+Attaching ballot contract interface to address 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
+The winner of this vote is the Lasagna !
+Done in 5.58s.
