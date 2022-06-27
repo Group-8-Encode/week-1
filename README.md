@@ -6,7 +6,7 @@
 - Celal Aksu
 - Gabriel Horvart
 - Ryan Chipwanya
-- Iñaki#2559 (Discord Username)
+- Inaki Cervera-Marzal
 
 # Query proposals
 
