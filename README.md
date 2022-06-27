@@ -27,6 +27,7 @@ yarn ts-node ./scripts/Ballot/proposals.ts 0x067eA3431a0440F89774233fFCcD7eE170A
 #### Output
 
 Using address 0x63FaC9201494f0bd17B9892B9fae4d52fe3BD377
+
 Signer address is : 0x63FaC9201494f0bd17B9892B9fae4d52fe3BD377
 
 Contract address is : 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
@@ -56,8 +57,11 @@ Second parameter is the address we want to delegate to (Has to have voting right
 #### Output
 
 Using address 0x93da76CFc683E1536C91d37abcfE17a60c29B578
+
 Wallet balance 0.09995680299976961
+
 Attaching ballot contract interface to address 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
+
 Delegating to this address: 0xD24ff979e673188cb0BE80Da4914dF0e621e3e2F
 
 Awaiting confirmations
@@ -86,11 +90,17 @@ The voter address is given inside the .env file.
 #### Output
 
 Using address 0xc046cB6389571B43D09008828D6bC25e9997904E
+
 Wallet balance 0.0885635145006305
+
 Attaching ballot contract interface to address 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
+
 0xc046cB6389571B43D09008828D6bC25e9997904E votes for proposal number 3
+
 Awaiting confirmations
+
 Transaction completed. Hash: 0xb20a92810e07ca74bf2a7d390252c3a012ea0baacf23b24bc90f1d0021b1cafa
+
 Done in 104.51s.
 
 # Voting Results
@@ -110,7 +120,11 @@ First parameter is the contract address.
 #### Output
 
 Using address 0x89ebFFe6Cc220FCdd1291D3E95A80cee3C305360
+
 Wallet balance 0.09988626399878682
+
 Attaching ballot contract interface to address 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
+
 The winner of this vote is the Lasagna !
+
 Done in 5.58s.
