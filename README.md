@@ -8,6 +8,51 @@
 - Ryan Chipwanya
 - Inaki Cervera-Marzal
 
+# Deployment
+
+Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
+
+The contract is deployed on rinkeby tesnet.
+
+The parameters are the proposals.
+
+
+## Script usage
+
+`yarn ts-node ./scripts/Ballot/deployment.ts <contract address> <string proposal1> <string proposal2>`
+
+### Example
+
+yarn ts-node ./scripts/Ballot/deployment.ts  "Pizza" "Cake" "Hamburger" "Lasagna" "Popcorn"
+
+#### Output
+
+Using address 0x56491d3F87382b3fF39683B78b04457E06C40A89
+
+Wallet balance 0.02
+
+Deploying Ballot contract
+
+Proposals: 
+
+Proposal N. 1: Pizza
+
+Proposal N. 2: Cake
+
+Proposal N. 3: Hamburger
+
+Proposal N. 4: Lasagna
+
+Proposal N. 5: Popcorn
+
+Awaiting confirmations
+
+Completed
+
+Contract deployed at 0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd
+
+Done in 33.36s.
+
 # Query proposals
 
 Contract address `0x067eA3431a0440F89774233fFCcD7eE170Ab37Bd`
